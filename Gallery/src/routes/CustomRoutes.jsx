@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Images from '../components/Images/Images';
 import ImageDetails from '../components/ImageDetails/ImageDetails';
 
+
 function CustomRoutes() {
   return (
     <Routes>

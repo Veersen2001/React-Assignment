@@ -18,6 +18,9 @@
     word-wrap: break-word;
     text-align: center;
     max-width: 300px;
+    text-decoration: none;
+    color: #000;
+    
 }
 
 img
@@ -27,4 +30,10 @@ img
  border-radius: 0.7rem;
 
 }
+.link{
+    text-decoration: none;
+    color: #000;
+    
+}
+
 
