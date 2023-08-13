@@ -1,0 +1,31 @@
+.images-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.images-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: -20px;
+}
+
+.image-list-heading{
+    color: black;
+    letter-spacing: 0.2rem;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.image-loading{
+   font-size: 30px;
+   font-weight: 500;
+   margin-top: 30%;
+
+}
+

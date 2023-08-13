@@ -1,0 +1,30 @@
+
+
+.imageShow{
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   align-items: center;
+   flex-wrap: wrap;
+    margin-top: 50px;
+   max-width: 350px;
+    padding: 10px 15px;
+   gap: 10px;
+
+}
+.image-title{
+    font-size: larger;
+    letter-spacing: 0.1rem;
+    word-wrap: break-word;
+    text-align: center;
+    max-width: 300px;
+}
+
+img
+{
+ height:300px;
+ width: 300px;
+ border-radius: 0.7rem;
+
+}
+
