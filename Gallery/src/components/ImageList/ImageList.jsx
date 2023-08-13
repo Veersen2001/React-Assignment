@@ -41,7 +41,7 @@ function ImageList()
 
     return(
       <div className="images-list-wrapper">
-        <div className='image-list-heading'>Image List</div>
+        
         <div className="images-list">
          
           {(isLoading) ? <h1 className='image-loading'>Images Loading.....</h1> : imageList.map((p)=><ImageShow  title={p.title} image={p.image} key={p.id} id={p.id} />)}

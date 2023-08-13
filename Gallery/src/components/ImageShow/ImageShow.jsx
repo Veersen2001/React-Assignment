@@ -4,7 +4,7 @@ function ImageShow({title,image,id})
 {
   return(
     <div className="imageShow">
-      <Link to={`/photos/${id}`}>
+      <Link className='link' to={`/photos/${id}`}>
         <div className="images-img"><img src={image} alt="img" /></div>
         <div className="image-title">{title}</div>
       </Link>
