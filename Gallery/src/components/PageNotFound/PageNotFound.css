@@ -1,12 +1,18 @@
 .page-not-found{
     margin-top:70px;
     word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+    
 }
 .text-orange-400{
     color: red;
+    letter-spacing: 0.3rem;
 }
 .page-not-found:after{
     content: "Try Again!";
-
+   letter-spacing: 0.2rem;
 
 }
