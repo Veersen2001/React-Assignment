@@ -6,7 +6,7 @@ function ImageShow({title,image,id})
     <div className="imageShow">
       <Link className='link' to={`/photos/${id}`}>
         <div className="images-img"><img src={image} alt="img" /></div>
-        <div className="image-title">{title}</div>
+        <div className="image-title"><span>{title}</span></div>
       </Link>
     </div>
   )

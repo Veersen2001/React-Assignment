@@ -1,0 +1,12 @@
+.page-not-found{
+    margin-top:70px;
+    word-wrap: break-word;
+}
+.text-orange-400{
+    color: red;
+}
+.page-not-found:after{
+    content: "Try Again!";
+
+
+}
